@@ -1,0 +1,29 @@
+$main-color: #0000f4;
+$main-dark-color: #2F2582;
+$accent-one: #f97dd6;
+$accent-two: #F64C72;
+$accent-three: #553D67;
+$accent-four: rgb(244, 139, 19);
+
+.projects {
+    margin-top: 10rem;
+    margin-bottom: 20rem;
+
+    .projects-title {
+        font-size: 8rem;
+        text-align: center;
+        color: $accent-two;
+    }
+
+    .projects-cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 10rem;
+        
+        >*{
+            margin: 3rem 5rem;
+        }
+    }
+}
